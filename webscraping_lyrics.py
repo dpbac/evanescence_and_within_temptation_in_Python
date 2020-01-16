@@ -2,6 +2,7 @@
 
 import argparse
 import sys
+import os
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -63,7 +64,7 @@ def filter_hyperlinks(urls):
 
     list_links_lyrics_songteksten_net = [link for link in list_links_lyrics_songteksten_net if (filter_lyrics 
                                                                               in link) ]
-
+    
     return list_links_lyrics_songteksten_net
 
 def extract_lyric_from_url(url_lyric):
@@ -107,7 +108,6 @@ def extract_lyric_from_url(url_lyric):
     # Having the lyrics in string format
     
     lyrics = '. '.join(list_lyrics)
-            
     
     # returning both list and string
     
@@ -144,6 +144,11 @@ def build_lyrics_dataframe(list_links_lyrics_songteksten_net,band_name):
 # main function
 
 def main():
+    
+    # create folder data to save .csv file
+    
+    if not os.path.exists("./data/"):
+        os.mkdir("./data/")
     
     parser = argparse.ArgumentParser()
     # Multually exlusive arguments (you need to choose one, not both!)
