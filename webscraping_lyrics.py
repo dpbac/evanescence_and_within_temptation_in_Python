@@ -10,8 +10,6 @@ import time
 
 TodaysDate = time.strftime("%Y-%m-%d")
 
-
-
 # functions
 
 def retrieve_hyperlinks(main_url):
@@ -139,8 +137,6 @@ def build_lyrics_dataframe(list_links_lyrics_songteksten_net,band_name):
     
     print("Dataframe with songtitle and lyrics of "+band_name+" created and save in .csv!")
 
-
-
 # main function
 
 def main():
@@ -154,7 +150,7 @@ def main():
     # Multually exlusive arguments (you need to choose one, not both!)
     group = parser.add_mutually_exclusive_group()
     group.add_argument("-e", "--evanescence", help="provide links to extract lyrics from Evanescence", action="store_true")
-    group.add_argument("-w", "--within_temptation", help="provide links to extract lyrics from Evanescence", action="store_true")
+    group.add_argument("-w", "--within_temptation", help="provide links to extract lyrics from Within Temptation", action="store_true")
     
     args = parser.parse_args()
     
