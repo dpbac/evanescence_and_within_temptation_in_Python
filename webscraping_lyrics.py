@@ -116,16 +116,16 @@ def build_lyrics_dataframe(list_links_lyrics_songteksten_net,band_name):
     """ Build dataframe with song titles and lyrics from list of lyrics hyperlinks."""
 
     # building lists with titles of lyrics and lyrics
-    list_title_lyrics_within_temptation = []
-    list_lyrics_within_temptation = []
+    list_title_lyrics = []
+    list_lyrics = []
 
     for url_lyric in list_links_lyrics_songteksten_net:
     
-        list_title_lyrics_within_temptation.append(url_lyric.split('/')[-1].split('.')[-2])
-        list_lyrics_within_temptation.append(extract_lyric_from_url(url_lyric)[1])
+        list_title_lyrics.append(url_lyric.split('/')[-1].split('.')[-2])
+        list_lyrics.append(extract_lyric_from_url(url_lyric)[1])
         
-    df = pd.DataFrame({'song_title': list_title_lyrics_within_temptation,
-                  'lyrics': list_lyrics_within_temptation})
+    df = pd.DataFrame({'song_title': list_title_lyrics,
+                  'lyrics': list_lyrics})
     
     # Here we also remove '-' from the title of the songs
 
