@@ -14,9 +14,3 @@ Compare and analyze the rock bands, [Evanescence](https://en.wikipedia.org/wiki/
 * Install requirements using `pip install -r requirements.txt`.
   * Make sure you use Python 3.
   * You may want to use a virtual environment for this.
-<<<<<<< HEAD
-=======
-  
-  
->>>>>>> e4aebe2f6c66a8d2fad65bacdb35e807bd419a84
- 
