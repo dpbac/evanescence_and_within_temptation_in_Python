@@ -1,7 +1,8 @@
-.ipynb_checkpoints
+.ipynb_checkpoints/
 data/
 docs/
 images/
+02-retrieve_playlist_tracks_audio_features_for_categories.ipynb
 notebook_02_retrieve_metada_Spotify_Evanescence_Within_Temptation.ipynb
 requirements.ipynb
 requirements_COMPLETE.ipynb
