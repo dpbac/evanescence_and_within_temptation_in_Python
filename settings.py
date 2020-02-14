@@ -6,8 +6,3 @@ redirect_uri = ""
 
 # the user id of my account
 username = ""
-
-try:
-    from .private import *
-    except Exception:
-        pass
