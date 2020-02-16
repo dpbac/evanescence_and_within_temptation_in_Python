@@ -9,3 +9,4 @@ requirements_COMPLETE.txt
 test.ipynb
 private.py
 genius_credentials.py
+notebook_04_real_time_Twitter_sentiment_analysis.ipynb
