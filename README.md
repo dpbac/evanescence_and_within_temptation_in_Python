@@ -5,7 +5,7 @@ Compare and analyze the rock bands, [Evanescence](https://en.wikipedia.org/wiki/
 
 [`Notebook 1`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_01_webscraping_Evanescence_Within_Temptation.ipynb) In this notebook I show how to built a Python web scraper using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/), applying some simple [Python string methods](https://www.w3schools.com/python/python_strings.asp) as well as other tools to obtain the lyrics from both bands.
 
-[`Notebook 2`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_02_retrieve_metada_Spotify_Evanescence_Within_Temptation.ipynb) In this notebook data about both bands, their albums, and tracks (metadata and audio features) are retrieved using Spotify's API. I'll be using Spotipy which is a lightweight Python library for the [Spotify Web API](https://developer.spotify.com/documentation/web-api/). 
+[`Notebook 2`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_02_retrieve_Spotify_data-Evanescence_Within_Temptation.ipynb) In this notebook data about both bands, their albums, and tracks (metadata and audio features) are retrieved using Spotify's API. I'll be using Spotipy which is a lightweight Python library for the [Spotify Web API](https://developer.spotify.com/documentation/web-api/). 
 
 To have access to Spotify API is necessary to request you credentials at https://developer.spotify.com/dashboard/login. Use these credentials in `credentials.txt`.
 
