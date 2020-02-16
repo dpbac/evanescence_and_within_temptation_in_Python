@@ -1,5 +1,5 @@
 .ipynb_checkpoints/
-data/
+data/.ipynb_checkpoints/
 docs/
 images/
 02-retrieve_playlist_tracks_audio_features_for_categories.ipynb
