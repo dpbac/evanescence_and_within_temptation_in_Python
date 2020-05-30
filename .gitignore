@@ -1,7 +1,8 @@
-.ipynb_checkpoints/
-data/.ipynb_checkpoints/
+__pycache__/
 docs/
 images/
+.ipynb_checkpoints/
+data/.ipynb_checkpoints/
 02-retrieve_playlist_tracks_audio_features_for_categories.ipynb
 requirements.ipynb
 requirements_COMPLETE.ipynb
