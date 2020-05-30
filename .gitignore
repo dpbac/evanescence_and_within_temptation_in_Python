@@ -4,6 +4,15 @@ docs/
 images/
 .ipynb_checkpoints/
 data/.ipynb_checkpoints/
+data/lyrics_within_temptation_2020-02-16.csv
+data/lyrics_evanescence_2020-02-16.csv
+data/info_tracks_within_temptation_with_duplicates_2020-02-16.csv
+data/info_tracks_within_temptation_without_duplicates_2020-02-16.csv
+data/info_tracks_evanescence_with_duplicates_2020-02-16.csv
+data/info_tracks_evanescence_without_duplicates_2020-02-16.csv
+data/info_within_temptation_albums_2020-02-16.csv
+data/info_Evanescence_albums_2020-02-16.csv
+data/info_tracks_evanescence_2020-02-16.csv
 02-retrieve_playlist_tracks_audio_features_for_categories.ipynb
 requirements.ipynb
 requirements_COMPLETE.ipynb
