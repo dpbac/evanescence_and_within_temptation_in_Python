@@ -18,11 +18,11 @@ To have access to Spotify API is necessary to request you credentials at https:/
 
 ### Using scripts
 
-[webscraping_lyrics.py](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/webscraping_lyrics.py) is the script of the code presented in [`Notebook 1`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_01_webscraping_Evanescence_Within_Temptation.ipynb) for songteksten.net.
+Script [webscraping_lyrics.py](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/webscraping_lyrics.py) contains the code explained in [`Notebook 1`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_01_webscraping_Evanescence_Within_Temptation.ipynb) to retrieve lyrics of Evanescence or Within Temptation from songteksten.net.
 
 #### Use:
 
-In the directory where webscraping_lyrics.py is located type the following command depending on which lyrics you need to retrieve:
+Got to the folder where `webscraping_lyrics.py` is located and type the following command depending on which lyrics you need to retrieve:
 
 - to retrieve lyrics from evanescence: `python webscraping_lyrics.py -e`
 - to retrieve lyrics from evanescence: `python webscraping_lyrics.py -w`
