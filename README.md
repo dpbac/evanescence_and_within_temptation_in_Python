@@ -7,7 +7,7 @@ Compare and analyze the rock bands, [Evanescence](https://en.wikipedia.org/wiki/
 
 [`Notebook 2`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_02_retrieve_Spotify_data-Evanescence_Within_Temptation.ipynb) In this notebook data about both bands, their albums, and tracks (metadata and audio features) are retrieved using Spotify's API. I'll be using Spotipy which is a lightweight Python library for the [Spotify Web API](https://developer.spotify.com/documentation/web-api/). 
 
-To have access to Spotify API is necessary to request you credentials at https://developer.spotify.com/dashboard/login. Use these credentials in `credentials.txt`.
+To have access to Spotify API is necessary to request you credentials at https://developer.spotify.com/dashboard/login. Use these credentials in `credentials.py`.
 
 [`Noteboob 3`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_03_some_NLP-Evanescence_Within_Temptation.ipynb). Here data retrieved through web scraping and using Spotify's API will be used to analyse further both bands. I'll be making use of some NLP and visualizantion.
 
