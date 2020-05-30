@@ -15,3 +15,16 @@ To have access to Spotify API is necessary to request you credentials at https:/
 * Install requirements using `pip install -r requirements.txt`.
   * Make sure you use Python 3.
   * You may want to use a virtual environment for this.
+
+### Using scripts
+
+[webscraping_lyrics.py](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/webscraping_lyrics.py) is the script of the code presented in [`Notebook 1`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_01_webscraping_Evanescence_Within_Temptation.ipynb) for songteksten.net.
+
+Use:
+
+In the directory where webscraping_lyrics.py is located type the following command depending on which lyrics you need to retrieve:
+
+to retrieve lyrics from evanescence: `python webscraping_lyrics.py -e`
+to retrieve lyrics from evanescence: `python webscraping_lyrics.py -w`
+
+A subdirectory `data\` will be created to save the resulting files.

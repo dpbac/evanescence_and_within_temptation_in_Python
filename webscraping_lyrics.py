@@ -10,16 +10,16 @@ import time
 
 TodaysDate = time.strftime("%Y-%m-%d")
 
-# functions
-
 def retrieve_hyperlinks(main_url):
-    """ Extract all hyperlinks in 'main_url' and return a list with these hyperlinks """
+    """ 
+    Extract all hyperlinks in 'main_url' and return a list with these hyperlinks 
+    """
     
-    # Packages the request, send the request and catch the response: r
+    # Send request and catch response: r
 
     r = requests.get(main_url)
 
-    # Extracts the response as html: html_doc
+    # Extracts response as html: html_doc
     html_doc = r.text
 
     # Create a BeautifulSoup object from the HTML: soup
@@ -38,7 +38,6 @@ def retrieve_hyperlinks(main_url):
     list_links = list(filter(None, list_links)) 
     
     return list_links
-
 
 def filter_hyperlinks(urls):
     """ Filter our hyperlinks that are not from lyrics taking into account the structure
@@ -66,7 +65,9 @@ def filter_hyperlinks(urls):
     return list_links_lyrics_songteksten_net
 
 def extract_lyric_from_url(url_lyric):
-    """ Extract lyrics after prettify beautiful soup from www.songteksten.nl """
+    """ 
+    Extract lyrics after prettify beautiful soup from www.songteksten.nl 
+    """
     
     
     # send a http request
@@ -106,6 +107,7 @@ def extract_lyric_from_url(url_lyric):
     # Having the lyrics in string format
     
     lyrics = '. '.join(list_lyrics)
+            
     
     # returning both list and string
     
@@ -130,6 +132,10 @@ def build_lyrics_dataframe(list_links_lyrics_songteksten_net,band_name):
     # Here we also remove '-' from the title of the songs
 
     df['song_title'] = df['song_title'].apply(lambda x: x.replace('-',' ').lower())
+    
+    # Organize dataframe in alphabetical order
+    df.sort_values('song_title', inplace = True)
+    df.reset_index(drop = True, inplace = True)
     
     # saving dataframe to .csv
 
