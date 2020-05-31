@@ -9,7 +9,8 @@ to built a Python web scraper using [BeautifulSoup](https://www.crummy.com/softw
 
 [`Notebook 2`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_02_Spotify_data-Evanescence_Within_Temptation.ipynb) In this notebook 
 data about both bands, their albums, and tracks (metadata and audio features) are retrieved using Spotify's API. I'll be using [Spotipy](https://spotipy.readthedocs.io/en/2.12.0/) 
-which is a lightweight Python library for the [Spotify Web API](https://developer.spotify.com/documentation/web-api/). 
+which is a lightweight Python library for the [Spotify Web API](https://developer.spotify.com/documentation/web-api/). In this notebook we
+present already some EDA comparing both bands.
 
 To have access to Spotify API is necessary to request you credentials at https://developer.spotify.com/dashboard/login. Use these credentials in `credentials.py`.
 
