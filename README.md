@@ -7,7 +7,7 @@ using some of the most important skills of a Data Scientist.
 [`Notebook 1`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_01_webscraping_Evanescence_Within_Temptation.ipynb) In this notebook I show how 
 to built a Python web scraper using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/), applying some simple [Python string methods](https://www.w3schools.com/python/python_strings.asp) as well as other tools to obtain the lyrics from both bands.
 
-[`Notebook 2`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_02_retrieve_Spotify_data-Evanescence_Within_Temptation.ipynb) In this notebook 
+[`Notebook 2`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_02_Spotify_data-Evanescence_Within_Temptation.ipynb) In this notebook 
 data about both bands, their albums, and tracks (metadata and audio features) are retrieved using Spotify's API. I'll be using [Spotipy](https://spotipy.readthedocs.io/en/2.12.0/) 
 which is a lightweight Python library for the [Spotify Web API](https://developer.spotify.com/documentation/web-api/). 
 
