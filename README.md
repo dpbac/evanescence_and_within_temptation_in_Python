@@ -14,7 +14,21 @@ present already some EDA comparing both bands.
 
 To have access to Spotify API is necessary to request you credentials at https://developer.spotify.com/dashboard/login. Use these credentials in `credentials.py`.
 
-[`Noteboob 3`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_03_some_NLP-Evanescence_Within_Temptation.ipynb). Here data retrieved through 
+[`Notebook 3`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_03_classification_using_audio_features.ipynb) 
+Some prediction models are used here on audio features of tracks to predict if a track is from `Evanescence` or `Within Temptation`.
+Models used are:
+* Knn (k-nearest neighbors)
+* Decision Tree
+* Random Forest
+* Adaboost
+
+Also [AutoML techniques](https://en.wikipedia.org/wiki/Automated_machine_learning) are used to identify ML models in a authomatic way. 
+Two open source libraries are used:
+
+* [TPOT](https://epistasislab.github.io/tpot/), an open source automated machine learning library developed at the University of Pennsylvania
+* [H20.ai AutoML](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html), a second open source automated machine learning library developed by researchers at H20.ai
+
+[`Noteboob 4`](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/notebook_04_some_NLP-Evanescence_Within_Temptation.ipynb). Here data retrieved through 
 web scraping and using Spotify's API will be used to analyse further both bands. I'll be making use of some NLP and visualizantion.
 
 ### Install requirements
