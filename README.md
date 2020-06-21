@@ -1,6 +1,9 @@
 # Project : The Symphonic Gothic Metal Rock Data 
 ## Analyzing Evanescence & Within Temptation
 
+![source: https://twitter.com/donttearmedown_/status/1274252383636381696/photo/1](https://github.com/dpbac/evanescence_and_within_temptation_in_Python/blob/master/images/Ea8NyWAX0AAXzka.jpg)
+*source: https://twitter.com/donttearmedown_/status/1274252383636381696/photo/1*
+
 Compare and analyze the rock bands, [Evanescence](https://en.wikipedia.org/wiki/Evanescence) and [Within Temptation](https://en.wikipedia.org/wiki/Within_Temptation), 
 using some of the most important skills of a Data Scientist.
 
